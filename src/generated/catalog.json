@@ -1999,6 +1999,238 @@
         }
       ],
       "contentVersion": "6f45031922b9"
+    },
+    {
+      "id": "book-bfbeea11",
+      "title": "박종권 | 실전 면접 답변집 종합판 — 206개 질문",
+      "category": "frontend",
+      "tags": [],
+      "sample": false,
+      "trusted": true,
+      "entryUrl": "books/book-bfbeea11/%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B8%20%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%87%E1%85%B5.html",
+      "assets": [
+        "books/book-bfbeea11/%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B8%20%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%87%E1%85%B5.html"
+      ],
+      "sizeBytes": 390479,
+      "sections": [
+        {
+          "id": "s0",
+          "heading": "문제를 발견하는 데서멈추지 않는 사람.",
+          "level": 1,
+          "order": 0
+        },
+        {
+          "id": "s1",
+          "heading": "내가 보여줘야 할 것은완벽함이 아니라 태도다.",
+          "level": 2,
+          "order": 1
+        },
+        {
+          "id": "s2",
+          "heading": "적응력",
+          "level": 4,
+          "order": 2
+        },
+        {
+          "id": "s3",
+          "heading": "집요함",
+          "level": 4,
+          "order": 3
+        },
+        {
+          "id": "s4",
+          "heading": "책임감",
+          "level": 4,
+          "order": 4
+        },
+        {
+          "id": "s5",
+          "heading": "안녕하세요.화면 밖의 개발자, 박종권입니다.",
+          "level": 2,
+          "order": 5
+        },
+        {
+          "id": "s6",
+          "heading": "가장 어려웠던 업무는의외로 유지보수였습니다.",
+          "level": 2,
+          "order": 6
+        },
+        {
+          "id": "s7",
+          "heading": "증상은 생체인식 오류,원인은 결과 저장 로직.",
+          "level": 2,
+          "order": 7
+        },
+        {
+          "id": "s8",
+          "heading": "문제가 나타났던 순서",
+          "level": 3,
+          "order": 8
+        },
+        {
+          "id": "s9",
+          "heading": "변경 전 · 문제 구조",
+          "level": 4,
+          "order": 9
+        },
+        {
+          "id": "s10",
+          "heading": "변경 후 · 수정 방향",
+          "level": 4,
+          "order": 10
+        },
+        {
+          "id": "s11",
+          "heading": "Q. 정확히 어떤 원인이었고, 어떻게 수정했나요?",
+          "level": 3,
+          "order": 11
+        },
+        {
+          "id": "s12",
+          "heading": "기술을 해결한 다음에도,설득해야 할 일이 남아 있었다.",
+          "level": 2,
+          "order": 12
+        },
+        {
+          "id": "s13",
+          "heading": "답을 찾기 전에,서로 같은 질문을 하고 있는지.",
+          "level": 2,
+          "order": 13
+        },
+        {
+          "id": "s14",
+          "heading": "“제가 이해한 문제가 맞을까요?”",
+          "level": 4,
+          "order": 14
+        },
+        {
+          "id": "s15",
+          "heading": "“이번 일에서 가장 중요한 기준은 무엇인가요?”",
+          "level": 4,
+          "order": 15
+        },
+        {
+          "id": "s16",
+          "heading": "“그럼 이 범위부터 검증하면 될까요?”",
+          "level": 4,
+          "order": 16
+        },
+        {
+          "id": "s17",
+          "heading": "예상하지 못한 질문에도말의 중심을 잃지 않는 법.",
+          "level": 2,
+          "order": 17
+        },
+        {
+          "id": "s18",
+          "heading": "경험 질문 · STAR",
+          "level": 4,
+          "order": 18
+        },
+        {
+          "id": "s19",
+          "heading": "기술 질문 · 원리",
+          "level": 4,
+          "order": 19
+        },
+        {
+          "id": "s20",
+          "heading": "상황 질문 · 판단",
+          "level": 4,
+          "order": 20
+        },
+        {
+          "id": "s21",
+          "heading": "직무별로 우선 연습할 질문",
+          "level": 3,
+          "order": 21
+        },
+        {
+          "id": "s22",
+          "heading": "현장에서 자주 받는 질문, 내 언어로 답하기.",
+          "level": 2,
+          "order": 22
+        },
+        {
+          "id": "s23",
+          "heading": "질문에 따라 꺼내 쓸다른 경험들.",
+          "level": 2,
+          "order": 23
+        },
+        {
+          "id": "s24",
+          "heading": "우리은행 · 마이그레이션",
+          "level": 4,
+          "order": 24
+        },
+        {
+          "id": "s25",
+          "heading": "SmartBiz · 모바일뱅킹 전환",
+          "level": 4,
+          "order": 25
+        },
+        {
+          "id": "s26",
+          "heading": "Runique · B2B 이커머스",
+          "level": 4,
+          "order": 26
+        },
+        {
+          "id": "s27",
+          "heading": "Oxid · AI 문의 처리",
+          "level": 4,
+          "order": 27
+        },
+        {
+          "id": "s28",
+          "heading": "지원 직무별로 강조할 경험을 바꾸세요.",
+          "level": 3,
+          "order": 28
+        },
+        {
+          "id": "s29",
+          "heading": "프론트엔드 개발 직무",
+          "level": 4,
+          "order": 29
+        },
+        {
+          "id": "s30",
+          "heading": "풀스택 개발 직무",
+          "level": 4,
+          "order": 30
+        },
+        {
+          "id": "s31",
+          "heading": "전산·시스템 운영 직무",
+          "level": 4,
+          "order": 31
+        },
+        {
+          "id": "s32",
+          "heading": "AI를 활용하는 서비스 개발",
+          "level": 4,
+          "order": 32
+        },
+        {
+          "id": "s33",
+          "heading": "읽을 때의 답변과말할 때의 답변은 다르다.",
+          "level": 2,
+          "order": 33
+        },
+        {
+          "id": "s34",
+          "heading": "말해보고 막혔던 부분 메모",
+          "level": 3,
+          "order": 34
+        },
+        {
+          "id": "s35",
+          "heading": "면접 직전, 이것만은분명하게 말하기.",
+          "level": 2,
+          "order": 35
+        }
+      ],
+      "contentVersion": "0267554945c8"
     }
   ]
 }

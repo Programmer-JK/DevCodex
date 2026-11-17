@@ -2,12 +2,13 @@
 
 > `npm run books:import`가 자동 생성합니다. 직접 수정하지 마세요. 원본 파일은 읽기만 하며, 복사본에도 경로 보정을 적용하지 않았습니다(수정 사항 없음).
 
-사용자 HTML 2개를 가져왔습니다.
+사용자 HTML 3개를 가져왔습니다.
 
 | 책 | 원본 | 인라인 스크립트 | 외부 CDN | fetch/모듈 | 부모창/팝업 | file:// | viewport 메타 | 고정 폭(px) | Clipboard | 누락/범위밖/루트절대 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | frontend-basic | `incoming/Frontend_Basic.html` | 1 | 없음 | 없음 | 없음 | 없음 | 있음 | - | 있음 | - |
 | java-spring | `incoming/Java_Spring.html` | 1 | 없음 | 있음 | 없음 | file:///.../lab.html</code>로 | 있음 | - | 있음 | - |
+| book-bfbeea11 | `incoming/면접 준비.html` | 1 | 없음 | 없음 | 없음 | 없음 | 있음 | - | 있음 | - |
 
 ## 처리 지침
 
