@@ -1,0 +1,43 @@
+{
+  "sample-frontend": {
+    "title": "[SAMPLE] 프론트엔드 핸드북",
+    "category": "frontend",
+    "description": "기능 검증용 샘플 문서 (실제 족보집 아님)",
+    "tags": [
+      "sample"
+    ],
+    "trusted": true
+  },
+  "sample-oracle-sql": {
+    "title": "[SAMPLE] Oracle SQL 노트",
+    "category": "database",
+    "description": "기능 검증용 샘플 문서 (실제 족보집 아님)",
+    "tags": [
+      "sample"
+    ],
+    "trusted": true
+  },
+  "sample-spring": {
+    "title": "[SAMPLE] Java & Spring 요약",
+    "category": "java-spring",
+    "description": "기능 검증용 샘플 문서 (실제 족보집 아님)",
+    "tags": [
+      "sample"
+    ],
+    "trusted": true
+  },
+  "frontend-basic": {
+    "title": "FRONTEND · 기본기 만렙 족보집",
+    "category": "frontend",
+    "description": "",
+    "tags": [],
+    "trusted": true
+  },
+  "java-spring": {
+    "title": "Java & Spring PRO — 설치·실행·실무 코드·면접 전문 족보",
+    "category": "java-spring",
+    "description": "",
+    "tags": [],
+    "trusted": true
+  }
+}

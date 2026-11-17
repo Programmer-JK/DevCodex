@@ -1,0 +1,9 @@
+body { font: 16px/1.7 system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 16px; color: #222; background: #fff; }
+body.dark { color: #ddd; background: #161616; }
+.banner { background: #fff3cd; color: #664d03; padding: 8px 12px; border-radius: 6px; font-weight: 600; }
+pre { overflow-x: auto; background: #f4f4f4; padding: 12px; border-radius: 6px; }
+body.dark pre { background: #262626; }
+.tab.active { font-weight: 700; text-decoration: underline; }
+button { min-height: 44px; margin: 4px 0; }
+img { max-width: 100%; height: auto; }
+.filler { min-height: 1600px; }

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[SAMPLE] 프론트엔드 핸드북</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner">SAMPLE — 기능 검증용 예제 문서입니다. 실제 족보집이 아닙니다.</div>
+<button id="theme-toggle" type="button">다크모드 전환</button>
+<nav class="toc">
+  <a href="#rendering">브라우저 렌더링</a> · <a href="#event-loop">이벤트 루프</a> · <a href="#css-layout">CSS 레이아웃</a>
+</nav>
+<h1>[SAMPLE] 프론트엔드 핸드북</h1>
+
+<h2 id="rendering">브라우저 렌더링</h2>
+<p>브라우저 렌더링 과정은 HTML 파싱으로 DOM을, CSS 파싱으로 CSSOM을 만든 뒤 렌더 트리를 구성하고 레이아웃과 페인트를 수행합니다.</p>
+<img src="images/pipeline.svg" alt="렌더링 파이프라인 다이어그램" width="320">
+<div class="tabs" role="tablist">
+  <button type="button" class="tab active" data-tab="reflow">리플로우</button>
+  <button type="button" class="tab" data-tab="repaint">리페인트</button>
+</div>
+<div class="tab-panel" id="panel-reflow">리플로우: 레이아웃(위치·크기)을 다시 계산합니다.</div>
+<div class="tab-panel" id="panel-repaint" hidden>리페인트: 레이아웃 변경 없이 픽셀만 다시 그립니다.</div>
+
+<h2 id="event-loop">이벤트 루프</h2>
+<p>자바스크립트 이벤트 루프는 콜 스택이 비면 마이크로태스크 큐를 먼저 비우고 매크로태스크를 하나 실행합니다.</p>
+<pre><code id="code-1">setTimeout(() =&gt; console.log('macro'));
+Promise.resolve().then(() =&gt; console.log('micro'));
+// 출력: micro → macro</code></pre>
+<button type="button" class="copy" data-target="code-1">코드 복사</button>
+<span class="copy-status" aria-live="polite"></span>
+
+<h2 id="css-layout">CSS 레이아웃</h2>
+<details class="accordion"><summary>Flexbox vs Grid</summary><p>Flexbox는 1차원, Grid는 2차원 레이아웃에 적합합니다.</p></details>
+<button type="button" class="acc-toggle" aria-expanded="false" aria-controls="acc-body">BFC 설명 펼치기</button>
+<div id="acc-body" hidden><p>Block Formatting Context는 float과 margin 상쇄를 격리합니다.</p></div>
+<h3 id="css-layout-long">긴 본문 (스크롤 테스트용)</h3>
+<p class="filler">스크롤 위치 복원 테스트를 위한 반복 문단입니다.</p>
+<script src="script.js"></script>
+</body>
+</html>

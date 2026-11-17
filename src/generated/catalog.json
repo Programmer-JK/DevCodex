@@ -1,0 +1,2004 @@
+{
+  "schemaVersion": 1,
+  "books": [
+    {
+      "id": "frontend-basic",
+      "title": "FRONTEND · 기본기 만렙 족보집",
+      "category": "frontend",
+      "tags": [],
+      "sample": false,
+      "trusted": true,
+      "entryUrl": "books/frontend-basic/Frontend_Basic.html",
+      "assets": [
+        "books/frontend-basic/Frontend_Basic.html"
+      ],
+      "sizeBytes": 379956,
+      "sections": [
+        {
+          "id": "s0",
+          "heading": "FRONTEND기본기 만렙 족보집.",
+          "level": 1,
+          "order": 0
+        },
+        {
+          "id": "s1",
+          "heading": "00. 진단·학습 운영법",
+          "level": 2,
+          "order": 1
+        },
+        {
+          "id": "s2",
+          "heading": "0-1. 진단 체크리스트",
+          "level": 3,
+          "order": 2
+        },
+        {
+          "id": "s3",
+          "heading": "0-2. 매일 45~70분 규칙",
+          "level": 3,
+          "order": 3
+        },
+        {
+          "id": "s4",
+          "heading": "0-3. 내 실력 판정표",
+          "level": 3,
+          "order": 4
+        },
+        {
+          "id": "s5",
+          "heading": "01. 브라우저: URL 입력부터 픽셀까지",
+          "level": 2,
+          "order": 5
+        },
+        {
+          "id": "s6",
+          "heading": "1-1. 큰 그림: URL에서 화면의 픽셀까지",
+          "level": 3,
+          "order": 6
+        },
+        {
+          "id": "s7",
+          "heading": "1-2. Navigation과 HTML 스트리밍: 렌더링 이전에도 병목이 있다",
+          "level": 3,
+          "order": 7
+        },
+        {
+          "id": "s8",
+          "heading": "1-3. DOM·CSSOM·Render Tree: 세 가지를 확실히 구분하기",
+          "level": 3,
+          "order": 8
+        },
+        {
+          "id": "s9",
+          "heading": "1-4. Style 계산: CSS의 최종 값은 어디서 결정되는가?",
+          "level": 3,
+          "order": 9
+        },
+        {
+          "id": "s10",
+          "heading": "1-5. Layout: 보이는 상자의 크기와 위치를 계산한다",
+          "level": 3,
+          "order": 10
+        },
+        {
+          "id": "s11",
+          "heading": "1-6. Paint → Rasterization → Composite: 화면에 색이 생기는 과정",
+          "level": 3,
+          "order": 11
+        },
+        {
+          "id": "s12",
+          "heading": "1-7. 초기 렌더링과 이후 프레임 갱신의 차이",
+          "level": 3,
+          "order": 12
+        },
+        {
+          "id": "s13",
+          "heading": "1-8. CSS 속성에 따라 왜 비용이 달라질까?",
+          "level": 3,
+          "order": 13
+        },
+        {
+          "id": "s14",
+          "heading": "1-9. 실무 사례: Layout Thrashing(레이아웃 스래싱)",
+          "level": 3,
+          "order": 14
+        },
+        {
+          "id": "s15",
+          "heading": "1-10. Rendering 실험: 코드 결과를 먼저 예측하기",
+          "level": 3,
+          "order": 15
+        },
+        {
+          "id": "s16",
+          "heading": "1-11. 이벤트 시점과 성능 측정: 무엇이 '화면 완료'인가?",
+          "level": 3,
+          "order": 16
+        },
+        {
+          "id": "s17",
+          "heading": "1-12. DevTools로 원인 추적하는 절차",
+          "level": 3,
+          "order": 17
+        },
+        {
+          "id": "s18",
+          "heading": "1-13. 스크립트 로딩 방식: 언제 파서가 멈추는가?",
+          "level": 3,
+          "order": 18
+        },
+        {
+          "id": "s19",
+          "heading": "1-14. 공식 문서로 검증하기",
+          "level": 3,
+          "order": 19
+        },
+        {
+          "id": "s20",
+          "heading": "02. HTML: 의미·폼·접근성은 기본 문법이다",
+          "level": 2,
+          "order": 20
+        },
+        {
+          "id": "s21",
+          "heading": "2-1. 시맨틱 요소가 중요한 이유",
+          "level": 3,
+          "order": 21
+        },
+        {
+          "id": "s22",
+          "heading": "2-2. button 대 div onClick",
+          "level": 3,
+          "order": 22
+        },
+        {
+          "id": "s23",
+          "heading": "2-3. 폼과 유효성 검증",
+          "level": 3,
+          "order": 23
+        },
+        {
+          "id": "s24",
+          "heading": "2-4. 접근성 4원칙",
+          "level": 3,
+          "order": 24
+        },
+        {
+          "id": "s25",
+          "heading": "03. CSS: 레이아웃이 깨지는 정확한 이유",
+          "level": 2,
+          "order": 25
+        },
+        {
+          "id": "s26",
+          "heading": "3-1. 캐스케이드와 우선순위",
+          "level": 3,
+          "order": 26
+        },
+        {
+          "id": "s27",
+          "heading": "3-2. Box model과 box-sizing",
+          "level": 3,
+          "order": 27
+        },
+        {
+          "id": "s28",
+          "heading": "3-3. Flex: 왜 min-width: 0인가?",
+          "level": 3,
+          "order": 28
+        },
+        {
+          "id": "s29",
+          "heading": "3-4. Grid와 반응형",
+          "level": 3,
+          "order": 29
+        },
+        {
+          "id": "s30",
+          "heading": "3-5. position·stacking context·z-index",
+          "level": 3,
+          "order": 30
+        },
+        {
+          "id": "s31",
+          "heading": "3-6. BFC, margin collapse, overflow",
+          "level": 3,
+          "order": 31
+        },
+        {
+          "id": "s32",
+          "heading": "3-7. CSS 디버깅 순서",
+          "level": 3,
+          "order": 32
+        },
+        {
+          "id": "s33",
+          "heading": "04. JavaScript I: 타입·스코프·실행 컨텍스트",
+          "level": 2,
+          "order": 33
+        },
+        {
+          "id": "s34",
+          "heading": "4-1. JS 데이터 모델",
+          "level": 3,
+          "order": 34
+        },
+        {
+          "id": "s35",
+          "heading": "4-2. 얕은 복사와 불변 업데이트",
+          "level": 3,
+          "order": 35
+        },
+        {
+          "id": "s36",
+          "heading": "4-3. ==, ===, Object.is",
+          "level": 3,
+          "order": 36
+        },
+        {
+          "id": "s37",
+          "heading": "4-4. 스코프와 TDZ",
+          "level": 3,
+          "order": 37
+        },
+        {
+          "id": "s38",
+          "heading": "4-5. 실행 컨텍스트·콜 스택",
+          "level": 3,
+          "order": 38
+        },
+        {
+          "id": "s39",
+          "heading": "4-6. Truthy·Falsy와 ??",
+          "level": 3,
+          "order": 39
+        },
+        {
+          "id": "s40",
+          "heading": "05. JavaScript II: 함수·클로저·this·프로토타입",
+          "level": 2,
+          "order": 40
+        },
+        {
+          "id": "s41",
+          "heading": "5-1. 클로저는 ‘함수 + 자신이 만들어진 렉시컬 환경’",
+          "level": 3,
+          "order": 41
+        },
+        {
+          "id": "s42",
+          "heading": "5-2. var 반복문과 let 반복문",
+          "level": 3,
+          "order": 42
+        },
+        {
+          "id": "s43",
+          "heading": "5-3. this는 호출 방식에 좌우된다",
+          "level": 3,
+          "order": 43
+        },
+        {
+          "id": "s44",
+          "heading": "5-4. 프로토타입 체인",
+          "level": 3,
+          "order": 44
+        },
+        {
+          "id": "s45",
+          "heading": "5-5. 고차 함수·순수 함수·참조 투명성",
+          "level": 3,
+          "order": 45
+        },
+        {
+          "id": "s46",
+          "heading": "06. JavaScript III: 이벤트 루프·비동기·경쟁 상태",
+          "level": 2,
+          "order": 46
+        },
+        {
+          "id": "s47",
+          "heading": "6-1. 실행 순서의 원칙",
+          "level": 3,
+          "order": 47
+        },
+        {
+          "id": "s48",
+          "heading": "6-2. async/await의 실제 의미",
+          "level": 3,
+          "order": 48
+        },
+        {
+          "id": "s49",
+          "heading": "6-3. 순차 요청과 병렬 요청",
+          "level": 3,
+          "order": 49
+        },
+        {
+          "id": "s50",
+          "heading": "6-4. fetch와 에러 처리",
+          "level": 3,
+          "order": 50
+        },
+        {
+          "id": "s51",
+          "heading": "6-5. 자동완성: 요청 경쟁(race condition) 해결",
+          "level": 3,
+          "order": 51
+        },
+        {
+          "id": "s52",
+          "heading": "6-6. Debounce vs throttle",
+          "level": 3,
+          "order": 52
+        },
+        {
+          "id": "s53",
+          "heading": "07. DOM·이벤트·Web API",
+          "level": 2,
+          "order": 53
+        },
+        {
+          "id": "s54",
+          "heading": "7-1. 이벤트 전파 단계",
+          "level": 3,
+          "order": 54
+        },
+        {
+          "id": "s55",
+          "heading": "7-2. target vs currentTarget",
+          "level": 3,
+          "order": 55
+        },
+        {
+          "id": "s56",
+          "heading": "7-3. 이벤트 리스너 정리",
+          "level": 3,
+          "order": 56
+        },
+        {
+          "id": "s57",
+          "heading": "7-4. IntersectionObserver vs ResizeObserver",
+          "level": 3,
+          "order": 57
+        },
+        {
+          "id": "s58",
+          "heading": "7-5. 브라우저 저장소",
+          "level": 3,
+          "order": 58
+        },
+        {
+          "id": "s59",
+          "heading": "08. 네트워크·HTTP·인증·캐시",
+          "level": 2,
+          "order": 59
+        },
+        {
+          "id": "s60",
+          "heading": "8-1. HTTP 메서드·상태 코드",
+          "level": 3,
+          "order": 60
+        },
+        {
+          "id": "s61",
+          "heading": "8-2. CORS는 서버 접근 제어 자체가 아니다",
+          "level": 3,
+          "order": 61
+        },
+        {
+          "id": "s62",
+          "heading": "8-3. 쿠키 기반 인증과 토큰 기반 인증",
+          "level": 3,
+          "order": 62
+        },
+        {
+          "id": "s63",
+          "heading": "8-4. HTTP 캐싱",
+          "level": 3,
+          "order": 63
+        },
+        {
+          "id": "s64",
+          "heading": "8-5. 재시도 정책",
+          "level": 3,
+          "order": 64
+        },
+        {
+          "id": "s65",
+          "heading": "09. TypeScript: 런타임을 이해하는 타입 설계",
+          "level": 2,
+          "order": 65
+        },
+        {
+          "id": "s66",
+          "heading": "9-1. TS는 런타임 타입 검증기가 아니다",
+          "level": 3,
+          "order": 66
+        },
+        {
+          "id": "s67",
+          "heading": "9-2. any vs unknown vs never",
+          "level": 3,
+          "order": 67
+        },
+        {
+          "id": "s68",
+          "heading": "9-3. 판별 유니온으로 불가능한 상태 제거",
+          "level": 3,
+          "order": 68
+        },
+        {
+          "id": "s69",
+          "heading": "9-4. 제네릭과 타입 추론",
+          "level": 3,
+          "order": 69
+        },
+        {
+          "id": "s70",
+          "heading": "9-5. 타입 유틸리티·좁히기",
+          "level": 3,
+          "order": 70
+        },
+        {
+          "id": "s71",
+          "heading": "9-6. satisfies, as const, 런타임 경계",
+          "level": 3,
+          "order": 71
+        },
+        {
+          "id": "s72",
+          "heading": "10. React: 렌더링 모델부터 다시 이해하기",
+          "level": 2,
+          "order": 72
+        },
+        {
+          "id": "s73",
+          "heading": "10-1. 렌더는 화면 변경과 동의어가 아니다",
+          "level": 3,
+          "order": 73
+        },
+        {
+          "id": "s74",
+          "heading": "10-2. 상태는 스냅샷: 함수형 업데이트",
+          "level": 3,
+          "order": 74
+        },
+        {
+          "id": "s75",
+          "heading": "10-3. key는 순서 표시가 아니라 정체성",
+          "level": 3,
+          "order": 75
+        },
+        {
+          "id": "s76",
+          "heading": "10-4. useEffect는 계산용이 아니다",
+          "level": 3,
+          "order": 76
+        },
+        {
+          "id": "s77",
+          "heading": "10-5. Effect의 cleanup",
+          "level": 3,
+          "order": 77
+        },
+        {
+          "id": "s78",
+          "heading": "10-6. stale closure는 왜 생기는가?",
+          "level": 3,
+          "order": 78
+        },
+        {
+          "id": "s79",
+          "heading": "10-7. memo·useMemo·useCallback",
+          "level": 3,
+          "order": 79
+        },
+        {
+          "id": "s80",
+          "heading": "10-8. 상태 위치: local / lift / context / server state",
+          "level": 3,
+          "order": 80
+        },
+        {
+          "id": "s81",
+          "heading": "11. 프레임워크를 넘어: React·Vue 공통 원리",
+          "level": 2,
+          "order": 81
+        },
+        {
+          "id": "s82",
+          "heading": "11-1. 둘 다 결국 상태 변화 → 화면 동기화",
+          "level": 3,
+          "order": 82
+        },
+        {
+          "id": "s83",
+          "heading": "11-2. 폼 상태 설계",
+          "level": 3,
+          "order": 83
+        },
+        {
+          "id": "s84",
+          "heading": "11-3. 데이터 패칭 상태 머신",
+          "level": 3,
+          "order": 84
+        },
+        {
+          "id": "s85",
+          "heading": "11-4. 브라우저와 서버의 책임 경계",
+          "level": 3,
+          "order": 85
+        },
+        {
+          "id": "s86",
+          "heading": "12. 성능: 측정 후 개선하기",
+          "level": 2,
+          "order": 86
+        },
+        {
+          "id": "s87",
+          "heading": "12-1. Core Web Vitals",
+          "level": 3,
+          "order": 87
+        },
+        {
+          "id": "s88",
+          "heading": "12-2. LCP 개선",
+          "level": 3,
+          "order": 88
+        },
+        {
+          "id": "s89",
+          "heading": "12-3. INP 개선",
+          "level": 3,
+          "order": 89
+        },
+        {
+          "id": "s90",
+          "heading": "12-4. CLS 개선",
+          "level": 3,
+          "order": 90
+        },
+        {
+          "id": "s91",
+          "heading": "12-5. 1만 행 테이블 문제",
+          "level": 3,
+          "order": 91
+        },
+        {
+          "id": "s92",
+          "heading": "12-6. Lighthouse와 현장 지표",
+          "level": 3,
+          "order": 92
+        },
+        {
+          "id": "s93",
+          "heading": "13. 프론트엔드 보안: 사고가 나는 경계",
+          "level": 2,
+          "order": 93
+        },
+        {
+          "id": "s94",
+          "heading": "13-1. XSS: 문자열이 코드가 되는 순간",
+          "level": 3,
+          "order": 94
+        },
+        {
+          "id": "s95",
+          "heading": "13-2. CSP는 추가 방어선",
+          "level": 3,
+          "order": 95
+        },
+        {
+          "id": "s96",
+          "heading": "13-3. CSRF와 XSS 차이",
+          "level": 3,
+          "order": 96
+        },
+        {
+          "id": "s97",
+          "heading": "13-4. 권한 검증·민감 정보",
+          "level": 3,
+          "order": 97
+        },
+        {
+          "id": "s98",
+          "heading": "13-5. 보안 코드 리뷰 체크",
+          "level": 3,
+          "order": 98
+        },
+        {
+          "id": "s99",
+          "heading": "14. 테스트·디버깅·유지보수",
+          "level": 2,
+          "order": 99
+        },
+        {
+          "id": "s100",
+          "heading": "14-1. 테스트 피라미드보다 ‘리스크 기반 경계’",
+          "level": 3,
+          "order": 100
+        },
+        {
+          "id": "s101",
+          "heading": "14-2. 좋은 테스트는 구현이 아니라 사용자 계약을 본다",
+          "level": 3,
+          "order": 101
+        },
+        {
+          "id": "s102",
+          "heading": "14-3. 네트워크를 재현 가능한 상태로",
+          "level": 3,
+          "order": 102
+        },
+        {
+          "id": "s103",
+          "heading": "14-4. 버그 해결 7단계",
+          "level": 3,
+          "order": 103
+        },
+        {
+          "id": "s104",
+          "heading": "14-5. 코드 리뷰에서 보는 설계 품질",
+          "level": 3,
+          "order": 104
+        },
+        {
+          "id": "s105",
+          "heading": "15. 아키텍처·빌드·렌더링 전략",
+          "level": 2,
+          "order": 105
+        },
+        {
+          "id": "s106",
+          "heading": "15-1. CSR / SSR / SSG / 하이드레이션",
+          "level": 3,
+          "order": 106
+        },
+        {
+          "id": "s107",
+          "heading": "15-2. 번들러가 하는 일",
+          "level": 3,
+          "order": 107
+        },
+        {
+          "id": "s108",
+          "heading": "15-3. 모듈 경계의 기준",
+          "level": 3,
+          "order": 108
+        },
+        {
+          "id": "s109",
+          "heading": "15-4. 상태·URL·캐시를 분리하라",
+          "level": 3,
+          "order": 109
+        },
+        {
+          "id": "s110",
+          "heading": "15-5. 디자인 시스템과 접근성",
+          "level": 3,
+          "order": 110
+        },
+        {
+          "id": "s111",
+          "heading": "16. 모션그래픽 심화: 프레임·합성·Canvas·3D",
+          "level": 2,
+          "order": 111
+        },
+        {
+          "id": "s112",
+          "heading": "16-1. 모션그래픽은 렌더링 절차의 '어느 한 단계'가 아니다",
+          "level": 3,
+          "order": 112
+        },
+        {
+          "id": "s113",
+          "heading": "16-2. 60Hz·120Hz와 프레임 예산: FPS만 보면 안 되는 이유",
+          "level": 3,
+          "order": 113
+        },
+        {
+          "id": "s114",
+          "heading": "16-3. CSS Transition과 Keyframes: 상태 변화 vs 타임라인",
+          "level": 3,
+          "order": 114
+        },
+        {
+          "id": "s115",
+          "heading": "16-4. 직접 비교해보기: left와 transform",
+          "level": 3,
+          "order": 115
+        },
+        {
+          "id": "s116",
+          "heading": "16-5. requestAnimationFrame: 시간에 따라 움직이기",
+          "level": 3,
+          "order": 116
+        },
+        {
+          "id": "s117",
+          "heading": "16-6. Web Animations API: DOM 애니메이션의 JS 제어",
+          "level": 3,
+          "order": 117
+        },
+        {
+          "id": "s118",
+          "heading": "16-7. FLIP: 레이아웃은 바뀌었지만 이동은 transform으로",
+          "level": 3,
+          "order": 118
+        },
+        {
+          "id": "s119",
+          "heading": "16-8. will-change, 레이어 승격, GPU 가속의 오해",
+          "level": 3,
+          "order": 119
+        },
+        {
+          "id": "s120",
+          "heading": "16-9. 스크롤 모션: Scroll event보다 목적에 맞는 도구부터",
+          "level": 3,
+          "order": 120
+        },
+        {
+          "id": "s121",
+          "heading": "16-10. GSAP, Motion, CSS, Three.js: 도구를 고르는 기준",
+          "level": 3,
+          "order": 121
+        },
+        {
+          "id": "s122",
+          "heading": "16-11. Canvas 2D: 매 프레임 직접 그리는 모델",
+          "level": 3,
+          "order": 122
+        },
+        {
+          "id": "s123",
+          "heading": "16-12. 직접 실행해보기: Canvas 파티클 데모",
+          "level": 3,
+          "order": 123
+        },
+        {
+          "id": "s124",
+          "heading": "16-13. Three.js로 넘어가기: Scene → Camera → Renderer",
+          "level": 3,
+          "order": 124
+        },
+        {
+          "id": "s125",
+          "heading": "16-14. prefers-reduced-motion: 성능 이전에 접근성",
+          "level": 3,
+          "order": 125
+        },
+        {
+          "id": "s126",
+          "heading": "16-15. 실전 최적화 절차: 추측하지 말고 측정",
+          "level": 3,
+          "order": 126
+        },
+        {
+          "id": "s127",
+          "heading": "16-16. 실전 미션 09~11: 모션그래픽 실력 증명",
+          "level": 3,
+          "order": 127
+        },
+        {
+          "id": "s128",
+          "heading": "16-17. 심화 면접 질문 10선 · 모범 답변·꼬리 질문",
+          "level": 3,
+          "order": 128
+        },
+        {
+          "id": "s129",
+          "heading": "17. 실제 구현 미션: 기본기 증명하기",
+          "level": 2,
+          "order": 129
+        },
+        {
+          "id": "s130",
+          "heading": "Mission 01. 라이브러리 없는 검색·정렬·페이지네이션",
+          "level": 3,
+          "order": 130
+        },
+        {
+          "id": "s131",
+          "heading": "Mission 02. 이벤트 루프 시뮬레이터",
+          "level": 3,
+          "order": 131
+        },
+        {
+          "id": "s132",
+          "heading": "Mission 03. 자동완성 입력창",
+          "level": 3,
+          "order": 132
+        },
+        {
+          "id": "s133",
+          "heading": "Mission 04. 접근성 있는 모달",
+          "level": 3,
+          "order": 133
+        },
+        {
+          "id": "s134",
+          "heading": "Mission 05. React 상태 관리 리팩터링",
+          "level": 3,
+          "order": 134
+        },
+        {
+          "id": "s135",
+          "heading": "Mission 06. 10,000행 표 성능 진단",
+          "level": 3,
+          "order": 135
+        },
+        {
+          "id": "s136",
+          "heading": "Mission 07. 보안·인증 사고 재현",
+          "level": 3,
+          "order": 136
+        },
+        {
+          "id": "s137",
+          "heading": "Mission 08. 미니 대시보드 완성",
+          "level": 3,
+          "order": 137
+        },
+        {
+          "id": "s138",
+          "heading": "18. 면접 실전: 40문답 모범 답변 카드",
+          "level": 2,
+          "order": 138
+        },
+        {
+          "id": "s139",
+          "heading": "19. 10주 실전 로드맵과 최종 평가",
+          "level": 2,
+          "order": 139
+        },
+        {
+          "id": "s140",
+          "heading": "최종 시험: 100점",
+          "level": 3,
+          "order": 140
+        },
+        {
+          "id": "s141",
+          "heading": "오늘 시작할 첫 문제 (정답을 보기 전 설명해보자)",
+          "level": 3,
+          "order": 141
+        },
+        {
+          "id": "s142",
+          "heading": "마지막 체크: 족보집을 ‘읽은 사람’과 ‘소화한 사람’",
+          "level": 3,
+          "order": 142
+        },
+        {
+          "id": "s143",
+          "heading": "부록 A. 자주 틀리는 20개 암기 카드",
+          "level": 2,
+          "order": 143
+        },
+        {
+          "id": "s144",
+          "heading": "부록 B. 공식 레퍼런스",
+          "level": 2,
+          "order": 144
+        }
+      ],
+      "contentVersion": "6049e7a654e6"
+    },
+    {
+      "id": "java-spring",
+      "title": "Java & Spring PRO — 설치·실행·실무 코드·면접 전문 족보",
+      "category": "java-spring",
+      "tags": [],
+      "sample": false,
+      "trusted": true,
+      "entryUrl": "books/java-spring/Java_Spring.html",
+      "assets": [
+        "books/java-spring/Java_Spring.html"
+      ],
+      "sizeBytes": 209392,
+      "sections": [
+        {
+          "id": "s0",
+          "heading": "코드를 넘어,동작 원리까지.",
+          "level": 1,
+          "order": 0
+        },
+        {
+          "id": "bootlab-install",
+          "heading": "Part 0. Java·Spring 설치에서 첫 실행까지",
+          "level": 1,
+          "anchor": "bootlab-install",
+          "order": 1
+        },
+        {
+          "id": "bootlab-why-jdk",
+          "heading": "0-1. 먼저 JDK·JRE·JVM 차이를 확실히 이해",
+          "level": 2,
+          "anchor": "bootlab-why-jdk",
+          "order": 2
+        },
+        {
+          "id": "bootlab-windows",
+          "heading": "0-2. Windows 설치: Temurin 21 + Maven + IntelliJ",
+          "level": 2,
+          "anchor": "bootlab-windows",
+          "order": 3
+        },
+        {
+          "id": "bootlab-macos",
+          "heading": "0-3. Mac M2 설치: Apple Silicon JDK + Maven",
+          "level": 2,
+          "anchor": "bootlab-macos",
+          "order": 4
+        },
+        {
+          "id": "bootlab-initializr",
+          "heading": "0-4. Spring Initializr로 새 프로젝트 만드는 법",
+          "level": 2,
+          "anchor": "bootlab-initializr",
+          "order": 5
+        },
+        {
+          "id": "bootlab-run",
+          "heading": "0-5. 압축 해제 → 테스트 → 실행 → 실제 HTTP 확인",
+          "level": 2,
+          "anchor": "bootlab-run",
+          "order": 6
+        },
+        {
+          "id": "bootlab-errors",
+          "heading": "0-6. 실습 중 가장 많이 발생하는 오류 8가지",
+          "level": 2,
+          "anchor": "bootlab-errors",
+          "order": 7
+        },
+        {
+          "id": "spring이-실제로-움직이는-방식-상세-해설",
+          "heading": "Spring이 실제로 움직이는 방식 — 상세 해설",
+          "level": 1,
+          "anchor": "spring이-실제로-움직이는-방식-상세-해설",
+          "order": 8
+        },
+        {
+          "id": "spring은-어떤-문제를-해결하려고-등장했을까",
+          "heading": "1. Spring은 어떤 문제를 해결하려고 등장했을까?",
+          "level": 2,
+          "anchor": "spring은-어떤-문제를-해결하려고-등장했을까",
+          "order": 9
+        },
+        {
+          "id": "ioc와-di를-헷갈리지-않는-방법",
+          "heading": "IoC와 DI를 헷갈리지 않는 방법",
+          "level": 3,
+          "anchor": "ioc와-di를-헷갈리지-않는-방법",
+          "order": 10
+        },
+        {
+          "id": "간단한-spring-예시",
+          "heading": "간단한 Spring 예시",
+          "level": 3,
+          "anchor": "간단한-spring-예시",
+          "order": 11
+        },
+        {
+          "id": "spring-boot-실행-버튼을-누르면-실제로-무슨-일이-일어날까",
+          "heading": "2. Spring Boot 실행 버튼을 누르면 실제로 무슨 일이 일어날까?",
+          "level": 2,
+          "anchor": "spring-boot-실행-버튼을-누르면-실제로-무슨-일이-일어날까",
+          "order": 12
+        },
+        {
+          "id": "자동-설정은-마법이-아니라-조건식이다",
+          "heading": "자동 설정은 마법이 아니라 조건식이다",
+          "level": 3,
+          "anchor": "자동-설정은-마법이-아니라-조건식이다",
+          "order": 13
+        },
+        {
+          "id": "실행은-되는데-bean을-찾지-못한다면",
+          "heading": "실행은 되는데 Bean을 찾지 못한다면?",
+          "level": 3,
+          "anchor": "실행은-되는데-bean을-찾지-못한다면",
+          "order": 14
+        },
+        {
+          "id": "bean은-언제-만들어지고-여러-사람이-동시에-쓰면-어떻게-될까",
+          "heading": "3. Bean은 언제 만들어지고, 여러 사람이 동시에 쓰면 어떻게 될까?",
+          "level": 2,
+          "anchor": "bean은-언제-만들어지고-여러-사람이-동시에-쓰면-어떻게-될까",
+          "order": 15
+        },
+        {
+          "id": "bean의-생명주기",
+          "heading": "Bean의 생명주기",
+          "level": 3,
+          "anchor": "bean의-생명주기",
+          "order": 16
+        },
+        {
+          "id": "aop와-프록시는-왜-중요한가",
+          "heading": "4. AOP와 프록시는 왜 중요한가?",
+          "level": 2,
+          "anchor": "aop와-프록시는-왜-중요한가",
+          "order": 17
+        },
+        {
+          "id": "aop-용어를-면접용으로-정리",
+          "heading": "AOP 용어를 면접용으로 정리",
+          "level": 3,
+          "anchor": "aop-용어를-면접용으로-정리",
+          "order": 18
+        },
+        {
+          "id": "사용자가-api를-호출했을-때-내부를-따라가-보자",
+          "heading": "5. 사용자가 API를 호출했을 때 내부를 따라가 보자",
+          "level": 2,
+          "anchor": "사용자가-api를-호출했을-때-내부를-따라가-보자",
+          "order": 19
+        },
+        {
+          "id": "restcontroller가-문자열을-반환하면-왜-view-이름으로-보지-않을까",
+          "heading": "@RestController가 문자열을 반환하면 왜 View 이름으로 보지 않을까?",
+          "level": 3,
+          "anchor": "restcontroller가-문자열을-반환하면-왜-view-이름으로-보지-않을까",
+          "order": 20
+        },
+        {
+          "id": "검증은-어느-계층에서-해야-할까",
+          "heading": "검증은 어느 계층에서 해야 할까?",
+          "level": 3,
+          "anchor": "검증은-어느-계층에서-해야-할까",
+          "order": 21
+        },
+        {
+          "id": "예외를-공통-처리하는-이유",
+          "heading": "예외를 공통 처리하는 이유",
+          "level": 3,
+          "anchor": "예외를-공통-처리하는-이유",
+          "order": 22
+        },
+        {
+          "id": "트랜잭션은-단순히-롤백해-주는-어노테이션이-아니다",
+          "heading": "6. 트랜잭션은 단순히 ’롤백해 주는 어노테이션’이 아니다",
+          "level": 2,
+          "anchor": "트랜잭션은-단순히-롤백해-주는-어노테이션이-아니다",
+          "order": 23
+        },
+        {
+          "id": "어떤-예외가-발생하면-롤백할까",
+          "heading": "어떤 예외가 발생하면 롤백할까?",
+          "level": 3,
+          "anchor": "어떤-예외가-발생하면-롤백할까",
+          "order": 24
+        },
+        {
+          "id": "예외를-잡으면-어떻게-될까",
+          "heading": "예외를 잡으면 어떻게 될까?",
+          "level": 3,
+          "anchor": "예외를-잡으면-어떻게-될까",
+          "order": 25
+        },
+        {
+          "id": "propagation을-실제-상황으로-이해",
+          "heading": "Propagation을 실제 상황으로 이해",
+          "level": 3,
+          "anchor": "propagation을-실제-상황으로-이해",
+          "order": 26
+        },
+        {
+          "id": "격리-수준은-왜-필요한가",
+          "heading": "격리 수준은 왜 필요한가?",
+          "level": 3,
+          "anchor": "격리-수준은-왜-필요한가",
+          "order": 27
+        },
+        {
+          "id": "mybatis와-jpa는-어떻게-다른-사고방식을-요구할까",
+          "heading": "7. MyBatis와 JPA는 어떻게 다른 사고방식을 요구할까?",
+          "level": 2,
+          "anchor": "mybatis와-jpa는-어떻게-다른-사고방식을-요구할까",
+          "order": 28
+        },
+        {
+          "id": "mybatis-sql을-중심으로-명시적으로-제어",
+          "heading": "MyBatis: SQL을 중심으로 명시적으로 제어",
+          "level": 3,
+          "anchor": "mybatis-sql을-중심으로-명시적으로-제어",
+          "order": 29
+        },
+        {
+          "id": "jpa-영속성-컨텍스트가-객체-상태를-관리",
+          "heading": "JPA: 영속성 컨텍스트가 객체 상태를 관리",
+          "level": 3,
+          "anchor": "jpa-영속성-컨텍스트가-객체-상태를-관리",
+          "order": 30
+        },
+        {
+          "id": "flush와-commit을-분리해서-생각하자",
+          "heading": "Flush와 Commit을 분리해서 생각하자",
+          "level": 3,
+          "anchor": "flush와-commit을-분리해서-생각하자",
+          "order": 31
+        },
+        {
+          "id": "n1은-왜-생길까",
+          "heading": "N+1은 왜 생길까?",
+          "level": 3,
+          "anchor": "n1은-왜-생길까",
+          "order": 32
+        },
+        {
+          "id": "spring-security의-요청-흐름을-한-번에-이해하자",
+          "heading": "8. Spring Security의 요청 흐름을 한 번에 이해하자",
+          "level": 2,
+          "anchor": "spring-security의-요청-흐름을-한-번에-이해하자",
+          "order": 33
+        },
+        {
+          "id": "jwt를-쓸-때-꼭-답할-질문",
+          "heading": "JWT를 쓸 때 꼭 답할 질문",
+          "level": 3,
+          "anchor": "jwt를-쓸-때-꼭-답할-질문",
+          "order": 34
+        },
+        {
+          "id": "cors와-csrf를-따로-보는-이유",
+          "heading": "CORS와 CSRF를 따로 보는 이유",
+          "level": 3,
+          "anchor": "cors와-csrf를-따로-보는-이유",
+          "order": 35
+        },
+        {
+          "id": "java-메모리와-대용량-처리-실무-경험을-이론으로-정리",
+          "heading": "9. Java 메모리와 대용량 처리 — 실무 경험을 이론으로 정리",
+          "level": 2,
+          "anchor": "java-메모리와-대용량-처리-실무-경험을-이론으로-정리",
+          "order": 36
+        },
+        {
+          "id": "객체가-크면-무엇이-문제일까",
+          "heading": "객체가 크면 무엇이 문제일까?",
+          "level": 3,
+          "anchor": "객체가-크면-무엇이-문제일까",
+          "order": 37
+        },
+        {
+          "id": "db-성능이-느릴-때는-무엇부터-확인할까",
+          "heading": "10. DB 성능이 느릴 때는 무엇부터 확인할까?",
+          "level": 2,
+          "anchor": "db-성능이-느릴-때는-무엇부터-확인할까",
+          "order": 38
+        },
+        {
+          "id": "순서가-중요한-이유",
+          "heading": "순서가 중요한 이유",
+          "level": 3,
+          "anchor": "순서가-중요한-이유",
+          "order": 39
+        },
+        {
+          "id": "인덱스-예시",
+          "heading": "인덱스 예시",
+          "level": 3,
+          "anchor": "인덱스-예시",
+          "order": 40
+        },
+        {
+          "id": "connection-pool-고갈의-전형적인-징후",
+          "heading": "Connection Pool 고갈의 전형적인 징후",
+          "level": 3,
+          "anchor": "connection-pool-고갈의-전형적인-징후",
+          "order": 41
+        },
+        {
+          "id": "실무-테스트는-무엇을-어느-범위에서-검증할까",
+          "heading": "11. 실무 테스트는 무엇을 어느 범위에서 검증할까?",
+          "level": 2,
+          "anchor": "실무-테스트는-무엇을-어느-범위에서-검증할까",
+          "order": 42
+        },
+        {
+          "id": "테스트가-알려주는-설계-문제",
+          "heading": "테스트가 알려주는 설계 문제",
+          "level": 3,
+          "anchor": "테스트가-알려주는-설계-문제",
+          "order": 43
+        },
+        {
+          "id": "경력직-면접에서는-어떻게-말해야-할까",
+          "heading": "12. 경력직 면접에서는 어떻게 말해야 할까?",
+          "level": 2,
+          "anchor": "경력직-면접에서는-어떻게-말해야-할까",
+          "order": 44
+        },
+        {
+          "id": "예시-①-di를-왜-사용하나요",
+          "heading": "예시 ① “DI를 왜 사용하나요?”",
+          "level": 3,
+          "anchor": "예시-①-di를-왜-사용하나요",
+          "order": 45
+        },
+        {
+          "id": "예시-②-transactional은-어떻게-동작하나요",
+          "heading": "예시 ② “@Transactional은 어떻게 동작하나요?”",
+          "level": 3,
+          "anchor": "예시-②-transactional은-어떻게-동작하나요",
+          "order": 46
+        },
+        {
+          "id": "예시-③-mybatis와-jpa는-무엇이-다른가요",
+          "heading": "예시 ③ “MyBatis와 JPA는 무엇이 다른가요?”",
+          "level": 3,
+          "anchor": "예시-③-mybatis와-jpa는-무엇이-다른가요",
+          "order": 47
+        },
+        {
+          "id": "면접-전에-최종-점검",
+          "heading": "면접 전에 최종 점검",
+          "level": 3,
+          "anchor": "면접-전에-최종-점검",
+          "order": 48
+        },
+        {
+          "id": "java-spring-개념-족보",
+          "heading": "Java & Spring 개념 족보",
+          "level": 1,
+          "anchor": "java-spring-개념-족보",
+          "order": 49
+        },
+        {
+          "id": "이-자료를-보는-방법",
+          "heading": "이 자료를 보는 방법",
+          "level": 2,
+          "anchor": "이-자료를-보는-방법",
+          "order": 50
+        },
+        {
+          "id": "전체-지도",
+          "heading": "전체 지도",
+          "level": 2,
+          "anchor": "전체-지도",
+          "order": 51
+        },
+        {
+          "id": "part-1.-java-기초-spring을-이해하기-위한-바닥",
+          "heading": "Part 1. Java 기초: Spring을 이해하기 위한 바닥",
+          "level": 1,
+          "anchor": "part-1.-java-기초-spring을-이해하기-위한-바닥",
+          "order": 52
+        },
+        {
+          "id": "jdk-jre-jvm",
+          "heading": "01. JDK, JRE, JVM ★",
+          "level": 2,
+          "anchor": "jdk-jre-jvm",
+          "order": 53
+        },
+        {
+          "id": "기본형과-참조형",
+          "heading": "02. 기본형과 참조형 ★",
+          "level": 2,
+          "anchor": "기본형과-참조형",
+          "order": 54
+        },
+        {
+          "id": "stack-heap-gc",
+          "heading": "03. Stack, Heap, GC ★★",
+          "level": 2,
+          "anchor": "stack-heap-gc",
+          "order": 55
+        },
+        {
+          "id": "vs-equals-vs-hashcode",
+          "heading": "04. == vs equals() vs hashCode() ★",
+          "level": 2,
+          "anchor": "vs-equals-vs-hashcode",
+          "order": 56
+        },
+        {
+          "id": "list-set-map",
+          "heading": "05. List, Set, Map ★",
+          "level": 2,
+          "anchor": "list-set-map",
+          "order": 57
+        },
+        {
+          "id": "interface-vs-abstract-class",
+          "heading": "06. interface vs abstract class ★",
+          "level": 2,
+          "anchor": "interface-vs-abstract-class",
+          "order": 58
+        },
+        {
+          "id": "상속보다-합성을-고려하는-이유",
+          "heading": "07. 상속보다 합성을 고려하는 이유 ★★",
+          "level": 2,
+          "anchor": "상속보다-합성을-고려하는-이유",
+          "order": 59
+        },
+        {
+          "id": "final-static-불변-객체",
+          "heading": "08. final, static, 불변 객체 ★",
+          "level": 2,
+          "anchor": "final-static-불변-객체",
+          "order": 60
+        },
+        {
+          "id": "checked-vs-unchecked-exception",
+          "heading": "09. Checked vs Unchecked Exception ★★",
+          "level": 2,
+          "anchor": "checked-vs-unchecked-exception",
+          "order": 61
+        },
+        {
+          "id": "generics-stream-optional",
+          "heading": "10. Generics, Stream, Optional ★",
+          "level": 2,
+          "anchor": "generics-stream-optional",
+          "order": 62
+        },
+        {
+          "id": "thread-race-condition-synchronized",
+          "heading": "11. Thread, Race Condition, synchronized ★★",
+          "level": 2,
+          "anchor": "thread-race-condition-synchronized",
+          "order": 63
+        },
+        {
+          "id": "java-필수-확인-질문",
+          "heading": "Java 필수 확인 질문",
+          "level": 3,
+          "anchor": "java-필수-확인-질문",
+          "order": 64
+        },
+        {
+          "id": "part-2.-spring-core-가장-중요한-구간",
+          "heading": "Part 2. Spring Core: 가장 중요한 구간",
+          "level": 1,
+          "anchor": "part-2.-spring-core-가장-중요한-구간",
+          "order": 65
+        },
+        {
+          "id": "spring-framework-vs-spring-boot",
+          "heading": "12. Spring Framework vs Spring Boot ★",
+          "level": 2,
+          "anchor": "spring-framework-vs-spring-boot",
+          "order": 66
+        },
+        {
+          "id": "ioc-제어의-역전",
+          "heading": "13. IoC: 제어의 역전 ★★★",
+          "level": 2,
+          "anchor": "ioc-제어의-역전",
+          "order": 67
+        },
+        {
+          "id": "di-의존성-주입",
+          "heading": "14. DI: 의존성 주입 ★★★",
+          "level": 2,
+          "anchor": "di-의존성-주입",
+          "order": 68
+        },
+        {
+          "id": "bean과-applicationcontext",
+          "heading": "15. Bean과 ApplicationContext ★★★",
+          "level": 2,
+          "anchor": "bean과-applicationcontext",
+          "order": 69
+        },
+        {
+          "id": "bean-등록-방법",
+          "heading": "16. Bean 등록 방법 ★",
+          "level": 2,
+          "anchor": "bean-등록-방법",
+          "order": 70
+        },
+        {
+          "id": "componentscan과-bean-충돌",
+          "heading": "17. @ComponentScan과 Bean 충돌 ★★",
+          "level": 2,
+          "anchor": "componentscan과-bean-충돌",
+          "order": 71
+        },
+        {
+          "id": "bean-scope-lifecycle",
+          "heading": "18. Bean Scope & Lifecycle ★★",
+          "level": 2,
+          "anchor": "bean-scope-lifecycle",
+          "order": 72
+        },
+        {
+          "id": "순환-참조",
+          "heading": "19. 순환 참조 ★★",
+          "level": 2,
+          "anchor": "순환-참조",
+          "order": 73
+        },
+        {
+          "id": "aop와-proxy",
+          "heading": "20. AOP와 Proxy ★★★",
+          "level": 2,
+          "anchor": "aop와-proxy",
+          "order": 74
+        },
+        {
+          "id": "spring-boot-자동-설정",
+          "heading": "21. Spring Boot 자동 설정 ★★★",
+          "level": 2,
+          "anchor": "spring-boot-자동-설정",
+          "order": 75
+        },
+        {
+          "id": "설정-주입과-profile",
+          "heading": "22. 설정 주입과 Profile ★",
+          "level": 2,
+          "anchor": "설정-주입과-profile",
+          "order": 76
+        },
+        {
+          "id": "spring-core-필수-확인-질문",
+          "heading": "Spring Core 필수 확인 질문",
+          "level": 3,
+          "anchor": "spring-core-필수-확인-질문",
+          "order": 77
+        },
+        {
+          "id": "part-3.-spring-mvc-http-요청의-실제-경로",
+          "heading": "Part 3. Spring MVC: HTTP 요청의 실제 경로",
+          "level": 1,
+          "anchor": "part-3.-spring-mvc-http-요청의-실제-경로",
+          "order": 78
+        },
+        {
+          "id": "servlet과-dispatcherservlet",
+          "heading": "23. Servlet과 DispatcherServlet ★★★",
+          "level": 2,
+          "anchor": "servlet과-dispatcherservlet",
+          "order": 79
+        },
+        {
+          "id": "controller-service-repository",
+          "heading": "24. Controller → Service → Repository ★★★",
+          "level": 2,
+          "anchor": "controller-service-repository",
+          "order": 80
+        },
+        {
+          "id": "controller-vs-restcontroller",
+          "heading": "25. @Controller vs @RestController ★",
+          "level": 2,
+          "anchor": "controller-vs-restcontroller",
+          "order": 81
+        },
+        {
+          "id": "주요-요청-어노테이션",
+          "heading": "26. 주요 요청 어노테이션 ★",
+          "level": 2,
+          "anchor": "주요-요청-어노테이션",
+          "order": 82
+        },
+        {
+          "id": "filter-vs-interceptor-vs-aop",
+          "heading": "27. Filter vs Interceptor vs AOP ★★",
+          "level": 2,
+          "anchor": "filter-vs-interceptor-vs-aop",
+          "order": 83
+        },
+        {
+          "id": "rest-http-상태-코드-멱등성",
+          "heading": "28. REST, HTTP 상태 코드, 멱등성 ★★",
+          "level": 2,
+          "anchor": "rest-http-상태-코드-멱등성",
+          "order": 84
+        },
+        {
+          "id": "dto와-entity를-분리하는-이유",
+          "heading": "29. DTO와 Entity를 분리하는 이유 ★★",
+          "level": 2,
+          "anchor": "dto와-entity를-분리하는-이유",
+          "order": 85
+        },
+        {
+          "id": "part-4.-트랜잭션db-경력직-면접의-중심",
+          "heading": "Part 4. 트랜잭션·DB: 경력직 면접의 중심",
+          "level": 1,
+          "anchor": "part-4.-트랜잭션db-경력직-면접의-중심",
+          "order": 86
+        },
+        {
+          "id": "트랜잭션과-acid",
+          "heading": "30. 트랜잭션과 ACID ★★★",
+          "level": 2,
+          "anchor": "트랜잭션과-acid",
+          "order": 87
+        },
+        {
+          "id": "transactional-동작-원리",
+          "heading": "31. @Transactional 동작 원리 ★★★",
+          "level": 2,
+          "anchor": "transactional-동작-원리",
+          "order": 88
+        },
+        {
+          "id": "propagation",
+          "heading": "32. Propagation ★★★",
+          "level": 2,
+          "anchor": "propagation",
+          "order": 89
+        },
+        {
+          "id": "isolation-level",
+          "heading": "33. Isolation Level ★★★",
+          "level": 2,
+          "anchor": "isolation-level",
+          "order": 90
+        },
+        {
+          "id": "jdbc-vs-mybatis-vs-jpa",
+          "heading": "34. JDBC vs MyBatis vs JPA ★★★",
+          "level": 2,
+          "anchor": "jdbc-vs-mybatis-vs-jpa",
+          "order": 91
+        },
+        {
+          "id": "jpa-영속성-컨텍스트와-dirty-checking",
+          "heading": "35. JPA 영속성 컨텍스트와 Dirty Checking ★★★",
+          "level": 2,
+          "anchor": "jpa-영속성-컨텍스트와-dirty-checking",
+          "order": 92
+        },
+        {
+          "id": "n1-문제",
+          "heading": "36. N+1 문제 ★★★",
+          "level": 2,
+          "anchor": "n1-문제",
+          "order": 93
+        },
+        {
+          "id": "connection-pool",
+          "heading": "37. Connection Pool ★★",
+          "level": 2,
+          "anchor": "connection-pool",
+          "order": 94
+        },
+        {
+          "id": "index-실행-계획-페이징",
+          "heading": "38. Index, 실행 계획, 페이징 ★★★",
+          "level": 2,
+          "anchor": "index-실행-계획-페이징",
+          "order": 95
+        },
+        {
+          "id": "락과-동시성-제어",
+          "heading": "39. 락과 동시성 제어 ★★★",
+          "level": 2,
+          "anchor": "락과-동시성-제어",
+          "order": 96
+        },
+        {
+          "id": "db트랜잭션-필수-확인-질문",
+          "heading": "DB·트랜잭션 필수 확인 질문",
+          "level": 3,
+          "anchor": "db트랜잭션-필수-확인-질문",
+          "order": 97
+        },
+        {
+          "id": "part-5.-spring-security-인증인가를-구분하자",
+          "heading": "Part 5. Spring Security: 인증·인가를 구분하자",
+          "level": 1,
+          "anchor": "part-5.-spring-security-인증인가를-구분하자",
+          "order": 98
+        },
+        {
+          "id": "인증authentication-vs-인가authorization",
+          "heading": "40. 인증(Authentication) vs 인가(Authorization) ★★★",
+          "level": 2,
+          "anchor": "인증authentication-vs-인가authorization",
+          "order": 99
+        },
+        {
+          "id": "securityfilterchain",
+          "heading": "41. SecurityFilterChain ★★★",
+          "level": 2,
+          "anchor": "securityfilterchain",
+          "order": 100
+        },
+        {
+          "id": "sessioncookie-vs-jwt",
+          "heading": "42. Session/Cookie vs JWT ★★",
+          "level": 2,
+          "anchor": "sessioncookie-vs-jwt",
+          "order": 101
+        },
+        {
+          "id": "비밀번호-처리",
+          "heading": "43. 비밀번호 처리 ★",
+          "level": 2,
+          "anchor": "비밀번호-처리",
+          "order": 102
+        },
+        {
+          "id": "cors-vs-csrf",
+          "heading": "44. CORS vs CSRF ★★★",
+          "level": 2,
+          "anchor": "cors-vs-csrf",
+          "order": 103
+        },
+        {
+          "id": "vs-403",
+          "heading": "45. 401 vs 403 ★",
+          "level": 2,
+          "anchor": "vs-403",
+          "order": 104
+        },
+        {
+          "id": "part-6.-실무-설계테스트운영",
+          "heading": "Part 6. 실무 설계·테스트·운영",
+          "level": 1,
+          "anchor": "part-6.-실무-설계테스트운영",
+          "order": 105
+        },
+        {
+          "id": "계층-분리와-의존-방향",
+          "heading": "46. 계층 분리와 의존 방향 ★★",
+          "level": 2,
+          "anchor": "계층-분리와-의존-방향",
+          "order": 106
+        },
+        {
+          "id": "단위-테스트-vs-통합-테스트",
+          "heading": "47. 단위 테스트 vs 통합 테스트 ★★",
+          "level": 2,
+          "anchor": "단위-테스트-vs-통합-테스트",
+          "order": 107
+        },
+        {
+          "id": "테스트하기-좋은-코드",
+          "heading": "48. 테스트하기 좋은 코드 ★★",
+          "level": 2,
+          "anchor": "테스트하기-좋은-코드",
+          "order": 108
+        },
+        {
+          "id": "성능-장애-진단-기본-순서",
+          "heading": "49. 성능 장애 진단 기본 순서 ★★★",
+          "level": 2,
+          "anchor": "성능-장애-진단-기본-순서",
+          "order": 109
+        },
+        {
+          "id": "캐시",
+          "heading": "50. 캐시 ★★",
+          "level": 2,
+          "anchor": "캐시",
+          "order": 110
+        },
+        {
+          "id": "async-스케줄러-메시지-큐",
+          "heading": "51. @Async, 스케줄러, 메시지 큐 ★★",
+          "level": 2,
+          "anchor": "async-스케줄러-메시지-큐",
+          "order": 111
+        },
+        {
+          "id": "관측-가능성",
+          "heading": "52. 관측 가능성 ★★",
+          "level": 2,
+          "anchor": "관측-가능성",
+          "order": 112
+        },
+        {
+          "id": "part-7.-1분-면접-답변-족보-25문항",
+          "heading": "Part 7. 1분 면접 답변 족보 — 25문항",
+          "level": 1,
+          "anchor": "part-7.-1분-면접-답변-족보-25문항",
+          "order": 113
+        },
+        {
+          "id": "문항-자기-채점",
+          "heading": "25문항 자기 채점",
+          "level": 2,
+          "anchor": "문항-자기-채점",
+          "order": 114
+        },
+        {
+          "id": "part-8.-종권의-실제-프로젝트를-spring-면접-답변으로-바꾸기",
+          "heading": "Part 8. 종권의 실제 프로젝트를 Spring 면접 답변으로 바꾸기",
+          "level": 1,
+          "anchor": "part-8.-종권의-실제-프로젝트를-spring-면접-답변으로-바꾸기",
+          "order": 115
+        },
+        {
+          "id": "사례-a.-runique-풀스택-설계-경험",
+          "heading": "사례 A. Runique: 풀스택 설계 경험",
+          "level": 2,
+          "anchor": "사례-a.-runique-풀스택-설계-경험",
+          "order": 116
+        },
+        {
+          "id": "사례-b.-우리은행-db와-장애-대응",
+          "heading": "사례 B. 우리은행: DB와 장애 대응",
+          "level": 2,
+          "anchor": "사례-b.-우리은행-db와-장애-대응",
+          "order": 117
+        },
+        {
+          "id": "사례-c.-oxid-테스트권한개인정보",
+          "heading": "사례 C. Oxid: 테스트·권한·개인정보",
+          "level": 2,
+          "anchor": "사례-c.-oxid-테스트권한개인정보",
+          "order": 118
+        },
+        {
+          "id": "part-9.-7일-학습-루틴-강의-없이-직접-부딪히기",
+          "heading": "Part 9. 7일 학습 루틴 — 강의 없이 직접 부딪히기",
+          "level": 1,
+          "anchor": "part-9.-7일-학습-루틴-강의-없이-직접-부딪히기",
+          "order": 119
+        },
+        {
+          "id": "최종-핵심-문장-10개",
+          "heading": "최종 핵심 문장 10개",
+          "level": 2,
+          "anchor": "최종-핵심-문장-10개",
+          "order": 120
+        },
+        {
+          "id": "공식-문서검증-출처",
+          "heading": "공식 문서·검증 출처",
+          "level": 2,
+          "anchor": "공식-문서검증-출처",
+          "order": 121
+        },
+        {
+          "id": "bootlab-project",
+          "heading": "Part 10. 실전 프로젝트: TaskBoard CRUD API 소스 해부",
+          "level": 1,
+          "anchor": "bootlab-project",
+          "order": 122
+        },
+        {
+          "id": "bootlab-tree",
+          "heading": "10-1. 패키지 구조부터 설계 이유까지",
+          "level": 2,
+          "anchor": "bootlab-tree",
+          "order": 123
+        },
+        {
+          "id": "bootlab-pom",
+          "heading": "10-2. pom.xml: 의존성 관리와 Starter의 실제 의미",
+          "level": 2,
+          "anchor": "bootlab-pom",
+          "order": 124
+        },
+        {
+          "id": "bootlab-main",
+          "heading": "10-3. @SpringBootApplication: 실행 한 줄에 숨은 단계",
+          "level": 2,
+          "anchor": "bootlab-main",
+          "order": 125
+        },
+        {
+          "id": "bootlab-entity",
+          "heading": "10-4. Entity: JPA가 관리하는 객체와 상태 전이",
+          "level": 2,
+          "anchor": "bootlab-entity",
+          "order": 126
+        },
+        {
+          "id": "bootlab-repository",
+          "heading": "10-5. Repository: 구현 클래스가 없는데 동작하는 이유",
+          "level": 2,
+          "anchor": "bootlab-repository",
+          "order": 127
+        },
+        {
+          "id": "bootlab-dto",
+          "heading": "10-6. DTO + Bean Validation: 검증을 두 겹으로",
+          "level": 2,
+          "anchor": "bootlab-dto",
+          "order": 128
+        },
+        {
+          "id": "bootlab-service",
+          "heading": "10-7. Service: DI, 트랜잭션, 변경 감지 핵심",
+          "level": 2,
+          "anchor": "bootlab-service",
+          "order": 129
+        },
+        {
+          "id": "bootlab-controller",
+          "heading": "10-8. Controller: HTTP 프로토콜을 Java 메서드로 변환",
+          "level": 2,
+          "anchor": "bootlab-controller",
+          "order": 130
+        },
+        {
+          "id": "bootlab-errors-source",
+          "heading": "10-9. 공통 예외: 400/404를 일관되게 반환",
+          "level": 2,
+          "anchor": "bootlab-errors-source",
+          "order": 131
+        },
+        {
+          "id": "bootlab-config",
+          "heading": "10-10. 설정: H2·JPA·Actuator, 개발과 운영 분리",
+          "level": 2,
+          "anchor": "bootlab-config",
+          "order": 132
+        },
+        {
+          "id": "bootlab-test",
+          "heading": "10-11. 테스트: 애플리케이션 전체 vs JPA 슬라이스",
+          "level": 2,
+          "anchor": "bootlab-test",
+          "order": 133
+        },
+        {
+          "id": "bootlab-lab",
+          "heading": "10-12. 브라우저에서도 실제 동작하는 Lab UI",
+          "level": 2,
+          "anchor": "bootlab-lab",
+          "order": 134
+        },
+        {
+          "id": "bootlab-http",
+          "heading": "10-13. 실제 HTTP 요청을 단계별로 검증",
+          "level": 2,
+          "anchor": "bootlab-http",
+          "order": 135
+        },
+        {
+          "id": "bootlab-expert",
+          "heading": "Part 11. 전문가 관점: 왜 이렇게 작동할까?",
+          "level": 1,
+          "anchor": "bootlab-expert",
+          "order": 136
+        },
+        {
+          "id": "bootlab-request-flow",
+          "heading": "11-1. 요청 1건이 실제로 지나가는 경로",
+          "level": 2,
+          "anchor": "bootlab-request-flow",
+          "order": 137
+        },
+        {
+          "id": "bootlab-deep-di",
+          "heading": "11-2. DI 컨테이너는 왜 테스트 가능성을 높일까?",
+          "level": 2,
+          "anchor": "bootlab-deep-di",
+          "order": 138
+        },
+        {
+          "id": "bootlab-deep-tx",
+          "heading": "11-3. 트랜잭션 프록시와 self-invocation 함정",
+          "level": 2,
+          "anchor": "bootlab-deep-tx",
+          "order": 139
+        },
+        {
+          "id": "bootlab-propagation",
+          "heading": "11-4. 전파 속성, 커넥션 풀과 REQUIRES_NEW 위험",
+          "level": 2,
+          "anchor": "bootlab-propagation",
+          "order": 140
+        },
+        {
+          "id": "bootlab-deep-jpa",
+          "heading": "11-5. JPA 상태 전이·flush·commit 차이",
+          "level": 2,
+          "anchor": "bootlab-deep-jpa",
+          "order": 141
+        },
+        {
+          "id": "bootlab-lock",
+          "heading": "11-6. 동시성: @Version과 재고 차감은 다르다",
+          "level": 2,
+          "anchor": "bootlab-lock",
+          "order": 142
+        },
+        {
+          "id": "bootlab-pages",
+          "heading": "11-7. Page vs Slice vs 커서 기반 페이징",
+          "level": 2,
+          "anchor": "bootlab-pages",
+          "order": 143
+        },
+        {
+          "id": "bootlab-security",
+          "heading": "11-8. Spring Security: 인증과 인가, Filter Chain",
+          "level": 2,
+          "anchor": "bootlab-security",
+          "order": 144
+        },
+        {
+          "id": "bootlab-pools",
+          "heading": "11-9. 스레드와 Connection Pool을 같이 보는 법",
+          "level": 2,
+          "anchor": "bootlab-pools",
+          "order": 145
+        },
+        {
+          "id": "bootlab-prod",
+          "heading": "11-10. 운영 준비: Flyway·Profile·로깅·테스트 전략",
+          "level": 2,
+          "anchor": "bootlab-prod",
+          "order": 146
+        },
+        {
+          "id": "bootlab-myths",
+          "heading": "11-11. 자주 틀리는 문장과 정확한 설명",
+          "level": 2,
+          "anchor": "bootlab-myths",
+          "order": 147
+        },
+        {
+          "id": "bootlab-practice",
+          "heading": "Part 12. 실습 도구·학습 미션·문제 해결",
+          "level": 1,
+          "anchor": "bootlab-practice",
+          "order": 148
+        },
+        {
+          "id": "bootlab-flowtool",
+          "heading": "12-1. 요청 흐름 시뮬레이터: 순서가 머릿속에 남게",
+          "level": 2,
+          "anchor": "bootlab-flowtool",
+          "order": 149
+        },
+        {
+          "id": "flow-title",
+          "heading": "1. 요청 수신",
+          "level": 3,
+          "anchor": "flow-title",
+          "order": 150
+        },
+        {
+          "id": "bootlab-command-tool",
+          "heading": "12-2. OS별 요청 명령어 자동 생성기",
+          "level": 2,
+          "anchor": "bootlab-command-tool",
+          "order": 151
+        },
+        {
+          "id": "bootlab-checklist",
+          "heading": "12-3. 8단계 실습 체크리스트",
+          "level": 2,
+          "anchor": "bootlab-checklist",
+          "order": 152
+        },
+        {
+          "id": "bootlab-senior-interview",
+          "heading": "12-4. 시니어 개발자 면접관이 던지는 심화 질문",
+          "level": 2,
+          "anchor": "bootlab-senior-interview",
+          "order": 153
+        },
+        {
+          "id": "bootlab-versions",
+          "heading": "12-5. 업그레이드할 때 특히 주의할 Spring Boot 3 ↔ 4 차이",
+          "level": 2,
+          "anchor": "bootlab-versions",
+          "order": 154
+        },
+        {
+          "id": "bootlab-sources",
+          "heading": "12-6. 공식 문서와 추천 학습 경로",
+          "level": 2,
+          "anchor": "bootlab-sources",
+          "order": 155
+        },
+        {
+          "id": "s156",
+          "heading": "10문항 실전 확인 퀴즈",
+          "level": 2,
+          "order": 156
+        }
+      ],
+      "contentVersion": "6f45031922b9"
+    }
+  ]
+}
